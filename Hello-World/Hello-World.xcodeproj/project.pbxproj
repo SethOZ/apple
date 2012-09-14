@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D31C67B1603980400B42459 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D31C6791603980400B42459 /* MainStoryboard.storyboard */; };
 		2D89BA8C16038EB50040A08C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89BA8B16038EB50040A08C /* UIKit.framework */; };
 		2D89BA8E16038EB50040A08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89BA8D16038EB50040A08C /* Foundation.framework */; };
 		2D89BA9016038EB50040A08C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D89BA8F16038EB50040A08C /* CoreGraphics.framework */; };
 		2D89BA9616038EB50040A08C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D89BA9416038EB50040A08C /* InfoPlist.strings */; };
 		2D89BA9816038EB50040A08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D89BA9716038EB50040A08C /* main.m */; };
 		2D89BA9C16038EB50040A08C /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D89BA9B16038EB50040A08C /* HelloWorldAppDelegate.m */; };
-		2D89BA9F16038EB50040A08C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D89BA9D16038EB50040A08C /* MainStoryboard.storyboard */; };
 		2D89BAA216038EB50040A08C /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D89BAA116038EB50040A08C /* HelloWorldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D31C67A1603980400B42459 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2D89BA8716038EB50040A08C /* Hello-World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D89BA8B16038EB50040A08C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D89BA8D16038EB50040A08C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -28,7 +29,6 @@
 		2D89BA9916038EB50040A08C /* Hello-World-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-World-Prefix.pch"; sourceTree = "<group>"; };
 		2D89BA9A16038EB50040A08C /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
 		2D89BA9B16038EB50040A08C /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
-		2D89BA9E16038EB50040A08C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2D89BAA016038EB50040A08C /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		2D89BAA116038EB50040A08C /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +77,9 @@
 		2D89BA9116038EB50040A08C /* Hello-World */ = {
 			isa = PBXGroup;
 			children = (
+				2D31C6791603980400B42459 /* MainStoryboard.storyboard */,
 				2D89BA9A16038EB50040A08C /* HelloWorldAppDelegate.h */,
 				2D89BA9B16038EB50040A08C /* HelloWorldAppDelegate.m */,
-				2D89BA9D16038EB50040A08C /* MainStoryboard.storyboard */,
 				2D89BAA016038EB50040A08C /* HelloWorldViewController.h */,
 				2D89BAA116038EB50040A08C /* HelloWorldViewController.m */,
 				2D89BA9216038EB50040A08C /* Supporting Files */,
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D89BA9616038EB50040A08C /* InfoPlist.strings in Resources */,
-				2D89BA9F16038EB50040A08C /* MainStoryboard.storyboard in Resources */,
+				2D31C67B1603980400B42459 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,20 +171,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2D31C6791603980400B42459 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D31C67A1603980400B42459 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		2D89BA9416038EB50040A08C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2D89BA9516038EB50040A08C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2D89BA9D16038EB50040A08C /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D89BA9E16038EB50040A08C /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +280,7 @@
 				2D89BAA716038EB50040A08C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
